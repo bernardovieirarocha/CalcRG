@@ -1,40 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📘 Calculadora de Rendimento Acadêmico
 
-## Getting Started
+Este projeto é uma **Calculadora de Rendimento Acadêmico (RA)** que permite aos alunos:
+- Adicionar disciplinas e notas.
+- Marcar disciplinas como **dispensadas** (não entram no cálculo do RA).
+- Monitorar disciplinas **concluídas**.
+- Exibir um **dashboard interativo**.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
+- **Next.js** - Framework para React.
+- **Tailwind CSS** - Estilização moderna e responsiva.
+- **React-Select** - Melhor experiência na escolha de disciplinas.
+- **JavaScript (ES6)** - Lógica do cálculo e manipulação do estado.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📦 Como Rodar o Projeto
+
+### 1️⃣ Clone este repositório:
+```sh
+git clone https://github.com/bernardovieirarocha/CalcRG
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Acesse a pasta do projeto:
+```sh
+cd RG_CALC
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 3️⃣ Instale as dependências:
+```sh
+npm install
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 4️⃣ Rode o projeto:
+```sh
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Acesse **http://localhost:3000** no navegador.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Funcionalidades
+- **Adicionar disciplinas** com nota e carga horária.
+- **Marcar como dispensada** para remover do cálculo do RA.
+- **Exibir o RA atualizado** conforme as disciplinas inseridas.
+- **Listar disciplinas concluídas** para um acompanhamento fácil.
 
-## Learn More
+## 🎨 Estilização
+O projeto foi estilizado utilizando **Tailwind CSS**, garantindo um visual bonito e responsivo.
 
-To learn more about Next.js, take a look at the following resources:
+## 📜 Licença
+Este projeto está sob a licença MIT. Sinta-se à vontade para usar e modificar conforme necessário.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💡 **Contribuições são bem-vindas!** Se tiver ideias para melhorias, fique à vontade para abrir um Pull Request. 🚀
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
